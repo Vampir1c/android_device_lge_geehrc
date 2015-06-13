@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
 	device/lge/geehrc/mixer_paths.xml:system/etc/mixer_paths.xml
 
 PRODUCT_COPY_FILES += \
+        device/lge/geehrc/initlogo.rle:root/initlogo.rle888 \
 	device/lge/geehrc/init.geehrc.rc:root/init.geehrc.rc \
 	device/lge/geehrc/init.geehrc.usb.rc:root/init.geehrc.usb.rc \
 	device/lge/geehrc/fstab.geehrc:root/fstab.geehrc \
