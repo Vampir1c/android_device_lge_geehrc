@@ -165,5 +165,7 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "usb-otg"
 TW_BRIGHTNESS_PATH := /sys/class/backlight/lm3530/brightness
 TW_MAX_BRIGHTNESS := 255
 
+BOARD_HARDWARE_CLASS := device/lge/geehrc/cmhw/
+
 #Asserts
 TARGET_OTA_ASSERT_DEVICE := gee,geeb,geehrc,e975,geehrc_4g_spr,geespr,ls970,geehrc4g,geehrc4g_spr_us,geebus,e970,e973,e971,geeb_att_us
