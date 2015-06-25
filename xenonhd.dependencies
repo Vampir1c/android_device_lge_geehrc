@@ -1,12 +1,6 @@
 [
  {
    "remote": "th",
-   "repository": "android_device_lge_geehrc",
-   "target_path": "device/lge/geehrc",
-   "revision": "lp-mr1"
- },
- {
-   "remote": "th",
    "repository": "android_kernel_lge_geehrc",
    "target_path": "kernel/lge/gee",
    "revision": "lp-mr1"
