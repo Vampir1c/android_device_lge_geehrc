@@ -271,7 +271,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.aac_51_output_enabled=true
+	media.aac_51_output_enabled=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
         debug.egl.recordable.rgba8888=1
@@ -282,6 +282,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+	debug.sf.hw=1
+	debug.egl.hw=1
+	debug.composition.type=dyn
+	debug.enable.wl_log=1
+	persist.hwc.mdpcomp.enable=true
+	debug.mdpcomp.logs=0
 
 # Hardware codecs
 PRODUCT_PROPERTY_OVERRIDES += \
