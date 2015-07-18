@@ -163,6 +163,7 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_NO_USB_STORAGE := true
 TW_BRIGHTNESS_PATH := /sys/class/backlight/lm3530/brightness
 TW_MAX_BRIGHTNESS := 255
+TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 
 BOARD_HARDWARE_CLASS := device/lge/geehrc/cmhw/
 
