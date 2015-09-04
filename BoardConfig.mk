@@ -33,7 +33,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 # build the kernel
 TARGET_KERNEL_SOURCE := kernel/lge/gee
-TARGET_KERNEL_CONFIG := solid_defconfig
+TARGET_KERNEL_CONFIG := gee_defconfig
 
 BOARD_USES_ALSA_AUDIO := true
 BOARD_USES_LEGACY_ALSA_AUDIO := false
